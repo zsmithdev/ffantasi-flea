@@ -22,8 +22,21 @@ A page dedicated to vendors who attend the market will be useful as this informs
 
 ### Structure
 
+As the times and dates of the events are necessarily linked to the location, it makes sense for these features to be placed together, alongside the suggested map. Combining these features with contact information also allows for queries around dates and location to be clarified. Also, as the mailing list is useful feature for users and a beneficial asset to the business owners, this should be repeated throughout the website to increase user exposure to this call to action.
 
+As the website will only feature a relatively small number of static pages, I opted not to create a flowchart. However, I made sure to have a clear idea of how users would move through the website. The home page acts as the landing page, and therefore will feature the prioritised date, time, location and contact information. It will also feature a small section on goods and traders prior to this information, to engage users. This section will link to the pages on goods (as pictured in the gallery) and trader profiles, as well as being accessible via a navigation bar.
 
+### Skeleton
+
+As displayed in my wireframes below, the site will be separated into three pages, attributing different priority levels to the information. The home page, as the landing page, will feature the highest priority information as established in previous planes: event dates and times, location and contact details, alongside the map for visual interest and practical use. Also, as the landing page, the front of the homepage will invite users to sign-up to newsletter. This will be repeated on the gallery page as the page is also catered to buyers.
+
+As the business model of a flea market necessitates, a greater number of site users should be buyers rather than traders. Therefore, the gallery displaying goods and the market ethos will be placed after the home page in navigation, and the section on traders with the traders sign up form will come after this. The gallery page with feature some text on the side to increase engagement, and creating a logical progression to the second sign-in link situation at the bottom of the gallery section. The navigation bar at the top of the screen will remain consistent throughout.
+
+### Surface
+
+Visually, the finished product seeks to produce a clean and aesthetically pleasing interface. This is achieved through intentionally chosen images contrasted against mostly white backgrounds. A consistent and simple colour palette will also be utilised, as attached below. The palette utilises gender neutral, muted tones that are consistent throughout each page. Repeated features such as sign-up buttons will be colour coded to improve user nagivation of the site’s features. If future pages were to be added, they would also follow this palette for consistency and branding purposes.
+
+Also, titles on each page will utilise bold typography to match the contemporary aesthetic of the target audience and play into current UX trends as identified by [DesignModo](https://designmodo.com/web-design-trends-2022/) among others. Images will be integrated into each page, catering to the visual and aesthetic-oriented target user. Even the traders page, the most text-heavy page, will features small images next to their profiles.
 
 #### Wireframes
 
