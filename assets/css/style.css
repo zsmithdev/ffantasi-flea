@@ -1,0 +1,23 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+#title {
+    font-family: 'Fugaz One', cursive;
+    text-transform: uppercase;
+    font-size: 350%;
+
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+#navbar {
+
+}
+
+ul {
+    list-style-type: none;
+}
