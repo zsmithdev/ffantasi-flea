@@ -27,13 +27,21 @@ h3 {
 
 #title {
     font-size: 400%;
-    display: inline-block;
-    width: 50%;
+    display: inline;
+    width: 40%;
     float:left;
+    padding: 0px;
+    border-bottom: 5px dotted #93B5C6;
+    text-align:center;
 }
 
 #navbar ul {
     list-style:none;
+}
+
+#navbar i{
+    color:#F0CF65;
+    font-size:80%;
 }
 
 #navbar li {
