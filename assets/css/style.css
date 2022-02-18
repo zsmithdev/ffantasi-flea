@@ -56,11 +56,12 @@ hr {
     border-top: 5px solid #0A2463;
 }
 
-#hr2{
-    margin-top:10px;
+#hr2 {
+    margin-top: 10px;
 }
 
-#sign-up-sticker {
+
+/* #sign-up-sticker {
     position: fixed;
     z-index: 2;
     bottom: 0;
@@ -73,7 +74,7 @@ hr {
     background-size: contain;
     background-image: url(../images/yellow-starburst.png);
     line-height: 200px;
-}
+} */
 
 #background-image {
     height: 70vh;
@@ -118,23 +119,54 @@ span {
     padding-bottom: 20px;
 }
 
-#upcoming-events{
-    font-size:300%;
+#upcoming-events {
+    font-size: 300%;
+    color: #D65108;
+}
+
+.events {
+    border: 5px solid #D65108;
+    height: 300px;
+    width: 25%;
+    border-radius: 25px;
+    display: inline-block;
+    margin-left: 85px;
+    margin-bottom:20px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+#events-section {
+    background-color: #F0CF65;
+}
+
+.map{
+    margin-left:10px;
+}
+
+.contact-div{
+    margin-top:30px;
+    margin-left:50px;
+    width:46%;
+}
+
+.contact-section{
+    height:100px;
+    width:200px;
+}
+
+.contact-section h3{
     color:#D65108;
 }
 
-.events{
-    border:5px solid #D65108;
-    height:300px;
-    width:25%;
-    border-radius:25px;
-    display:inline-block;
-    margin-left:85px;
-    padding:20px;
-    text-align:center;
-    background-color:white;
+.contact-section i{
+    color:#F0CF65;
 }
 
-#events-section{
-    background-color: #F0CF65;
+footer{
+    background-color:#C2C9D8;
+    padding:50px;
+    width:100%;
+    text-align:center;
 }
