@@ -7,6 +7,7 @@
 body {
     font-family: 'Inter', sans-serif;
     font-size: 100%;
+    color: #37392E;
 
 }
 
@@ -51,8 +52,12 @@ h3 {
     float: right;
 }
 
-hr{
+hr {
     border-top: 5px solid #0A2463;
+}
+
+#hr2{
+    margin-top:10px;
 }
 
 #sign-up-sticker {
@@ -104,5 +109,11 @@ hr{
 span {
     position: absolute;
     margin: 0 10px 0 20px;
-    color:#37392E;
+    color: #37392E;
+}
+
+.events-title {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
 }
