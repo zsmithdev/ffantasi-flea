@@ -117,3 +117,24 @@ span {
     text-align: center;
     padding-bottom: 20px;
 }
+
+#upcoming-events{
+    font-size:300%;
+    color:#D65108;
+}
+
+.events{
+    border:5px solid #D65108;
+    height:300px;
+    width:25%;
+    border-radius:25px;
+    display:inline-block;
+    margin-left:85px;
+    padding:20px;
+    text-align:center;
+    background-color:white;
+}
+
+#events-section{
+    background-color: #F0CF65;
+}
