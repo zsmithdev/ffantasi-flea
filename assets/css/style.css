@@ -170,3 +170,12 @@ footer{
     width:100%;
     text-align:center;
 }
+
+footer ul{
+    list-style-type:none;
+}
+
+footer li{
+    display:inline;
+    margin:20px;
+}
