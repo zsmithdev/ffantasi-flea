@@ -102,9 +102,39 @@
             </div>
         </section>
 
-        <section>
-            <p>trader sign-up</p>
+        <section id="trader-form">
+
+
+
+            <!-- As I don't have the PHP/SQL knowledge, I have left the form action attribute blank -->
+            <form method="POST" action="" class="trader-signup-form">
+                <h3>Want to become a trader?</h3>
+                <p>Fill out trader sign-up form! To apply to multiple events, fill out a separate form for each.</p>
+                <p><strong>Event:</strong>
+                    <label for="flea-wiz">Flea-Wiz, It's Spring (20th March 2022)</label>
+                    <input type="radio" id="flea-wiz" name="event_choice" value="flea_wiz" required>
+
+                    <label for="bank-holiday">Flea-ster Bank Holiday (15th April 2022)</label>
+                    <input type="radio" id="bank-holiday" name="event_choice" value="bank_holiday" required>
+
+                    <label for="may-day">May Day Flea (30th April 2022)</label>
+                    <input type="radio" id="may-day" name="event_choice" value="may_day" required></p>
+                <label for="fname"><strong>Business name:</strong></label>
+                <input type="text" id="bizname" name="biz_name" class="text-input" required>
+                <label for="fname"><strong>Business description:</strong></label>
+                <input type="text" id="bizdesc" name="biz_desc" class="text-input" required>
+                <br>
+                <label for="lname"><strong>Your name:</strong></label>
+                <input type="text" id="name" name="name" class="text-input" required>
+                <label for="email"><strong>Your email address:</strong></label>
+                <input type="email" id="email" name="email_address" class="text-input" required>
+                <br>
+                <input type="submit" value="Submit" class="join-button">
+
+            </form>
+
         </section>
+
 
 
 </body>
