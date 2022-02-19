@@ -66,3 +66,5 @@ Also, titles on each page will utilise bold typography to match the contemporary
 ## Deployment
 
 ## Credits
+
+Image Credits in seperate file - [view here](image-credits.md).
