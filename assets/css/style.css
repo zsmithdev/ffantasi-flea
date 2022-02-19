@@ -118,7 +118,8 @@ span {
 .events-title {
     width: 100%;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top:5px;
 }
 
 #upcoming-events {
@@ -133,7 +134,7 @@ span {
     border-radius: 25px;
     display: inline-block;
     margin-left: 85px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 20px;
     text-align: center;
     background-color: white;
@@ -145,21 +146,28 @@ span {
 
 .map {
     margin-left: 10px;
+    margin-top:10px;
 }
 
 .contact-div {
     margin-top: 30px;
     margin-left: 50px;
     width: 46%;
+    text-align:center;
 }
 
 .contact-section {
     height: 100px;
-    width: 200px;
+    display:inline-block;
+}
+
+#address{
+    display:block;
+    width:auto;
 }
 
 .contact-section h3 {
-    color: #D65108;
+    color: #37392E;
 }
 
 .contact-section i {
@@ -245,6 +253,7 @@ footer li {
 
 #trader-form{
     margin-top:20px;
+    margin-bottom:20px;
 }
 
 .trader-signup-form{
@@ -252,8 +261,19 @@ footer li {
 }
 
 .trader-signup-form input {
-    border: 2px solid #C2C9D8;
+    border: 2px solid #37392E;
     border-radius: 4px;
     margin-top:30px;
     margin-right:20px;
+}
+
+.join-button{
+    font-size:150%;
+    background-color:#F0CF65;
+    font-family: 'Fugaz One', cursive;
+    padding:3px;
+}
+
+.join-button:hover{
+    background-color: #D65108;
 }
