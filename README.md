@@ -56,6 +56,10 @@ Also, titles on each page will utilise bold typography to match the contemporary
 ### Libraries, Frameworks and Programmes
 - [Miro](https://miro.com/)
     - Miro was used to create wireframes during the structure and skeleton planes of my UX design process.
+- [Pixlr](https://pixlr.com/)
+    - Pixlr was used to resize, filter and add frames to images such as the trader and goods images on the homepage.
+- [Microsoft Powertoys](https://docs.microsoft.com/en-us/windows/powertoys/)
+    - Microsoft Powertoys was used to mass rename and resize images for the gallery.
 
 ## Testing
 
