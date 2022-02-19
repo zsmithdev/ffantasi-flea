@@ -52,11 +52,20 @@
         </header>
 
         <div id="signup-title">
-            <h2>Sign-Up to our Newsletter</h2>
-            <p>Want updates on upcoming markets? First to hear about new traders and exclusive community events happening in our space?</p>
+            <h2><u>Sign-Up to our Newsletter</u></h2>
+            <p>Want updates on upcoming markets? First to hear about new traders and exclusive community events
+                happening in our space?</p>
             <p><strong>That's where our newsletter comes in.</strong></p>
-            <p>We'll only contact you with the most important info. That way, if you get an email from Ffantasi Flea, you know it is worth the read.</p>
+            <p>We'll only contact you with the most important info. That way, if you get an email from Ffantasi Flea,
+                you know it is worth the read.</p>
+            <!-- As I don't have the PHP/SQL knowledge, I have left the form action attribute blank -->
+            <form method="POST" action="" class="trader-signup-form">
+                <label for="lname"><strong>Your name:</strong></label>
+                <input type="text" id="name" name="name" class="text-input" required>
+                <label for="email"><strong>Your email address:</strong></label>
+                <input type="email" id="email" name="email_address" class="text-input" required>
+                <br>
+                <input type="submit" value="Submit" class="join-button">
+            </form>
         </div>
-        <div></div>
-
 </body>
