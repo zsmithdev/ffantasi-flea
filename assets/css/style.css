@@ -221,3 +221,23 @@ footer li {
 background-image:linear-gradient(to bottom right, #F0CF65, #C2C9D8, #D65108);
 
 }
+
+
+
+
+.trader-div{
+    display:inline-block;
+    width:100%;
+}
+
+.trader-header{
+    display:inline-block;
+}
+
+.trader-para{
+    display:inline-block;
+}
+
+.trader-color{
+    background-color:white;
+}
