@@ -203,18 +203,16 @@ span {
         float: none;
     }
 
-    #nav-bar {
+    #navbar {
         padding: 0;
         margin: 0;
-        float: none;
         width: 100%;
     }
 
 
     #navbar li {
         font-size: 100%;
-        float: none;
-        margin-left: 0;
+        margin-right:25px;
     }
 
     ul {
@@ -330,10 +328,15 @@ footer li {
 @media only screen and (max-width: 767px) {
     #gallery {
         grid-template-columns: repeat(2, 1fr);
+        margin-bottom:-28vh;
     }
 
     #gallery p {
         display: none;
+    }
+
+    #gallery #img14 {
+        display:none;
     }
 }
 
