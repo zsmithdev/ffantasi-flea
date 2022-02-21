@@ -121,8 +121,8 @@ hr {
     text-align: justify;
 }
 
-.goods-trader-header {
-    margin-bottom: 0;
+.trader-header {
+    margin-bottom: 1vh;
 }
 
 span {
@@ -195,8 +195,8 @@ span {
 
     #tag-line {
         font-size: 10vh;
-        width:100%;
-        padding-top:5vh;
+        width: 100%;
+        padding-top: 5vh;
     }
 
     #responsive-nav {
@@ -235,11 +235,11 @@ span {
     .events {
         width: 100%;
         margin: 0 0 5% 0;
-        height:40vh;
+        height: 40vh;
     }
 
-    .events p{
-        margin-bottom:0.5%;
+    .events p {
+        margin-bottom: 0.5%;
     }
 
     .contact-div {
@@ -256,7 +256,7 @@ span {
         width: 100%;
         height: 30vh;
         margin-left: 0;
-        margin-bottom:3vh;
+        margin-bottom: 3vh;
     }
 
     .goods-trader p {
@@ -269,138 +269,182 @@ span {
         display: none;
     }
 
-    .map{
-        width:350px;
-        height:auto;
+    .map {
+        width: 350px;
+        height: auto;
     }
 
-    #sign-up-sticker{
-        display:none;
+    #sign-up-sticker {
+        display: none;
     }
 }
 
 
-    /* Footer */
+/* Footer */
 
-    footer {
-        background-color: #C2C9D8;
-        padding: 50px;
-        width: 100%;
-        text-align: center;
-        position: static;
-    }
+footer {
+    background-color: #C2C9D8;
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+    position: static;
+}
 
-    footer ul {
-        list-style-type: none;
-    }
+footer ul {
+    list-style-type: none;
+}
 
-    footer li {
-        display: inline;
-        margin: 20px;
-    }
+footer li {
+    display: inline;
+    margin: 20px;
+}
 
 
-    /* Gallery */
+/* Gallery */
 
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 18%);
+    width: 100%;
+    overflow: hidden;
+}
+
+#gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.pic-column p {
+    width: 100%;
+    padding: 25px;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Gallery Media Queries */
+
+@media only screen and (max-width: 767px) {
     #gallery {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(6, 18%);
-        width: 100%;
-        overflow: hidden;
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    #gallery img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+    #gallery p {
+        display: none;
     }
+}
+
+/* Traders */
+
+#traders-intro {
+    margin: 0 20px 0 20px;
+}
+
+#traders-intro h2 {
+    font-size: 400%;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#traders-intro p {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#gradient {
+    background-image: linear-gradient(to bottom right, #D65108, #F0CF65, #C2C9D8);
+
+}
+
+.trader-div {
+    display: inline-block;
+    width: 100%;
+}
+
+.trader-div img {
+    object-fit: cover;
+    width:20%;
+    height:auto;
+    max-height:140px;
+}
+
+.trader-color {
+    background-color: white;
+}
+
+/* Traders Form */
+
+#trader-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.trader-signup-form {
+    text-align: center;
+}
 
 
-    .pic-column p {
-        width: 100%;
-        padding: 25px;
-        line-height: 30px;
-        font-size: 20px;
-        text-align: center;
+.trader-signup-form input {
+    border: 2px solid #37392E;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.join-button {
+    font-size: 150%;
+    background-color: #F0CF65;
+    font-family: 'Fugaz One', cursive;
+    padding: 3px;
+}
+
+.join-button:hover {
+    background-color: #D65108;
+}
+
+/* Traders Media Queries */
+@media only screen and (max-width: 767px) {
+    #traders-intro h2 {
+        font-size: 300%;
     }
-
-    /* Traders */
 
     #traders-intro {
-        margin: 0 20px 0 20px;
-    }
-
-    #traders-intro h2 {
-        font-size: 400%;
-        color: white;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    }
-
-    #traders-intro p {
-        background-color: rgba(255, 255, 255, 0.5);
-    }
-
-    #gradient {
-        background-image: linear-gradient(to bottom right, #D65108, #F0CF65, #C2C9D8);
-
-    }
-
-    .trader-div {
-        display: inline-block;
-        width: 100%;
-    }
-
-    .trader-div img {
-        object-fit: cover;
-    }
-
-    .trader-color {
-        background-color: white;
-    }
-
-    /* Traders Form */
-
-    #trader-form {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .trader-signup-form {
         text-align: center;
     }
+.trader-div{
+height:28vh;
+}
 
+.trader-div h3{
+    margin-top:1vh;
+}
 
-    .trader-signup-form input {
-        border: 2px solid #37392E;
-        border-radius: 4px;
-        margin-top: 30px;
-        margin-right: 20px;
-    }
+.trader-div img{
+    display:none;
+}
 
-    .join-button {
-        font-size: 150%;
-        background-color: #F0CF65;
-        font-family: 'Fugaz One', cursive;
-        padding: 3px;
-    }
+.trader-signup-form input{
+display:block;
+margin:auto;
+}
 
-    .join-button:hover {
-        background-color: #D65108;
-    }
+}
 
-    /* Sign-up form */
+/* Sign-up form */
 
-    #form-body {
-        background-image: url(../images/signup-bg.jpg);
-        background-repeat: no-repeat;
-        background-position: right 1% bottom 80%;
-    }
+#form-body {
+    background-image: url(../images/signup-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: right 1% bottom 80%;
+}
 
-    #signup-title {
-        text-align: center;
-        background-color: rgba(255, 255, 255, 0.8);
-        height: auto;
-        margin: 30px 150px 0px 150px;
-        font-size: 120%;
-        padding: 15px 15px 15px 15px;}
+#signup-title {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: auto;
+    margin: 30px 150px 0px 150px;
+    font-size: 120%;
+    padding: 15px 15px 15px 15px;
+}
